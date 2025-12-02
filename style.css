@@ -1,0 +1,81 @@
+/* :root {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+        Arial;
+      color: #222;
+    } */
+    .heading{
+      font-weight: 400;
+      font-size: 60px;
+     
+   }
+
+    body {
+      display: flex;
+      align-items: start;
+      justify-content: left;
+      min-height: 100vh;
+      margin: 10px 10px 10px;
+      background: black;
+    }
+   .heading {
+      font-size: 30px;
+      margin: 20 10 12px;
+      color: white;
+    }
+
+    .countLine {
+      font-size: 20px;
+      margin: 10px 0;
+      color: white;
+    }
+
+    .countValue {
+      font-weight: 700;
+      margin-left: 6px;
+    }
+
+    .divider {
+      margin: 14px 0;
+      color: #888;
+      color: white;
+    }
+
+    #errorMsg {
+      margin: 6px 0 14px;
+      height: 20px; /* reserve space so layout doesn't jump */
+      color: red;
+      font-weight: 600;
+      visibility: hidden; /* hidden by default */
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .buttons button {
+      padding: 8px 14px;
+      border: 1px solid #d0d7df;
+      background: #fff;
+      cursor: pointer;
+      font-size: 14px;
+      min-width: 90px;
+    }
+    .btn-clear{
+      color: white;
+    }
+
+    .btn-decrement { background: #fff; }
+    .btn-increment { background: #fff; }
+    #clearBtn {
+      background: black;
+      
+    }
+
+    /* subtle hover */
+    .buttons button:hover { transform: translateY(-1px); }
+
+    /* hidden helper class */
+    .hidden { display: none !important; }

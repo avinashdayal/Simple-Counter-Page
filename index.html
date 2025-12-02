@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Counter page</title>
+    <link rel="stylesheet" href="style.css">
+      
+</head>
+<body>
+    <div class="card" role="region" aria-label="Counter">
+    <h1 class="heading">Counter using HTML</h1>
+
+    <!-- Count line (matches your UI text) -->
+    <div class="countLine">
+      Your current count is :
+      <span id="countValue" class="countValue">1</span>
+    </div>
+
+    <div class="divider">____________________</div>
+
+ 
+    <div id="errorMsg" role="status" aria-live="polite">Error : Cannot go below 0</div>
+
+    <!-- Buttons in the same order shown on your page:
+         Decrement  Increment  Clear -->
+
+    <div class="buttons" aria-hidden="false">
+      <button id="decrementBtn" class="btn-decrement" aria-label="Decrement">Decrement</button>
+      <button id="incrementBtn" class="btn-increment" aria-label="Increment">Increment</button>
+      <button id="clearBtn" class="btn-clear" aria-label="Clear">Clear</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
